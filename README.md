@@ -1,5 +1,5 @@
 # .NETTigerCompiler
-Compiler for the programming language Tiger developed in .NET.
+Compiler for the programming language Tiger developed in .NET. \n
 The Compiler has 3 phases:
 1- Sintactic Analysis.
 2- Semantics Analysis.
