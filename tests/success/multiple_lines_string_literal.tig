@@ -1,0 +1,6 @@
+let
+    var s := "Tiger allows string constants to multiple lines by ending and starting each line with a backslash."
+in
+    print(s);
+    print("\n")
+end

@@ -1,0 +1,5 @@
+c:\users\pedroantonio\documents\visual studio 2013\Projects\TigerExe\TigerExe\obj\Debug\TigerExe.csprojResolveAssemblyReference.cache
+c:\users\pedroantonio\documents\visual studio 2013\Projects\TigerExe\TigerExe\bin\Debug\TigerExe.exe
+c:\users\pedroantonio\documents\visual studio 2013\Projects\TigerExe\TigerExe\bin\Debug\TigerExe.pdb
+c:\users\pedroantonio\documents\visual studio 2013\Projects\TigerExe\TigerExe\obj\Debug\TigerExe.exe
+c:\users\pedroantonio\documents\visual studio 2013\Projects\TigerExe\TigerExe\obj\Debug\TigerExe.pdb

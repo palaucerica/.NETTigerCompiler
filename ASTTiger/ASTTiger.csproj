@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1BBF7DF9-9D6F-4E14-99C6-C558D86EDB14}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ASTTiger</RootNamespace>
+    <AssemblyName>ASTTiger</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="antlr.runtime">
+      <HintPath>.\antlr.runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>.\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AST\AccessNode.cs" />
+    <Compile Include="AST\Access.cs" />
+    <Compile Include="AST\AccessIndex.cs" />
+    <Compile Include="AST\AccessPto.cs" />
+    <Compile Include="AST\AliasNode.cs" />
+    <Compile Include="AST\AndNode.cs" />
+    <Compile Include="AST\AritmeticNode.cs" />
+    <Compile Include="AST\ArrayCreate.cs" />
+    <Compile Include="AST\ArrayDecNode.cs" />
+    <Compile Include="AST\AsignNode.cs" />
+    <Compile Include="AST\AtomicNode.cs" />
+    <Compile Include="AST\BinaryOperationNode.cs" />
+    <Compile Include="AST\BreakNode.cs" />
+    <Compile Include="Compiler\Compiler.cs" />
+    <Compile Include="AST\ControlNode.cs" />
+    <Compile Include="AST\DeclarationNode.cs" />
+    <Compile Include="AST\DistinctNode.cs" />
+    <Compile Include="AST\DivNode.cs" />
+    <Compile Include="AST\EqualsNode.cs" />
+    <Compile Include="Compiler\StandarLibrary.cs" />
+    <Compile Include="Compiler\TigerPM_ASTLexer.cs" />
+    <Compile Include="Compiler\TigerPM_ASTParser.cs" />
+    <Compile Include="Error.cs" />
+    <Compile Include="AST\Exp_SeqNode.cs" />
+    <Compile Include="AST\ForNode.cs" />
+    <Compile Include="AST\FunDeclarationNode.cs" />
+    <Compile Include="AST\FunNode.cs" />
+    <Compile Include="AST\FuntionCall.cs" />
+    <Compile Include="Scope\Fun_Scope.cs" />
+    <Compile Include="AST\GreaterThanEqualNode.cs" />
+    <Compile Include="AST\GreaterThanNode.cs" />
+    <Compile Include="AST\IfThenElseNode.cs" />
+    <Compile Include="AST\IfThenNode.cs" />
+    <Compile Include="AST\InstructionNode.cs" />
+    <Compile Include="AST\IntNode.cs" />
+    <Compile Include="AST\LanguageNode.cs" />
+    <Compile Include="AST\LessThanEqualsNode.cs" />
+    <Compile Include="AST\LessThanNode.cs" />
+    <Compile Include="AST\LetNode.cs" />
+    <Compile Include="AST\LogicalNode.cs" />
+    <Compile Include="AST\MinusNode.cs" />
+    <Compile Include="AST\MultNode.cs" />
+    <Compile Include="AST\NegativeOperationNode.cs" />
+    <Compile Include="AST\NilNode.cs" />
+    <Compile Include="AST\OperationNode.cs" />
+    <Compile Include="AST\OrNode.cs" />
+    <Compile Include="AST\PlusNode.cs" />
+    <Compile Include="AST\ProcedureDeclarationNode.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AST\RecordCreate.cs" />
+    <Compile Include="AST\RecordDecNode.cs" />
+    <Compile Include="AST\RelationalNode.cs" />
+    <Compile Include="Scope\ReturnArray.cs" />
+    <Compile Include="Scope\ReturnAlias.cs" />
+    <Compile Include="Scope\ReturnBreak.cs" />
+    <Compile Include="Scope\ReturnInt.cs" />
+    <Compile Include="Scope\ReturnNil.cs" />
+    <Compile Include="Scope\ReturnNotValue.cs" />
+    <Compile Include="Scope\ReturnRecord.cs" />
+    <Compile Include="Scope\ReturnString.cs" />
+    <Compile Include="Scope\Scope.cs" />
+    <Compile Include="AST\StringNode.cs" />
+    <Compile Include="AST\TypeDeclarationNode.cs" />
+    <Compile Include="Scope\TypeReturn.cs" />
+    <Compile Include="AST\UnaryOperationNode.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="AST\VarDeclarationNode.cs" />
+    <Compile Include="AST\VariableNode.cs" />
+    <Compile Include="Scope\Var_Scope.cs" />
+    <Compile Include="AST\WhileNode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AST.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

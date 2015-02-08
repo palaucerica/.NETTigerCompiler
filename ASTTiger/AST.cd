@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="ASTTiger.Access" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>AST\Access.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.WhileNode" Collapsed="true">
+    <Position X="63" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAABAAAAAAAAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\WhileNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.AccessIndex" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\AccessIndex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.AccessPto" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\AccessPto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.AliasDecNode" Collapsed="true">
+    <Position X="6.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>AST\AliasNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.AndNode" Collapsed="true">
+    <Position X="20.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\AndNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.AritmeticNode" Collapsed="true">
+    <Position X="40.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\AritmeticNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.ArrayCreate" Collapsed="true">
+    <Position X="58.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAiAAAAAAAAAQAAAAAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\ArrayCreate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.ArrayDecNode" Collapsed="true">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>AST\ArrayDecNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.AsignNode" Collapsed="true">
+    <Position X="65.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAACAAAAAAAAAAAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\AsignNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.AtomicNode" Collapsed="true">
+    <Position X="51.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\AtomicNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.BinaryOperationNode" Collapsed="true">
+    <Position X="41.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACACAAAAAAAA=</HashCode>
+      <FileName>AST\BinaryOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.BreakNode" Collapsed="true">
+    <Position X="49.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\BreakNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.ControlNode" Collapsed="true">
+    <Position X="69.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\ControlNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.DeclarationNode" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\DeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.DistinctNode" Collapsed="true">
+    <Position X="24.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\DistinctNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.DivNode" Collapsed="true">
+    <Position X="40.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\DivNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.EqualsNode" Collapsed="true">
+    <Position X="33.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\EqualsNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.ExpSeqNode" Collapsed="true">
+    <Position X="76.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\Exp_SeqNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.ForNode" Collapsed="true">
+    <Position X="81" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABABAASAAAAIAgAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\ForNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.FunDeclarationNode" Collapsed="true">
+    <Position X="14.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>AST\FunDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.FunctionNode" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAQAABAAAAAQAAEAAAgIQAAAAAAKABAA=</HashCode>
+      <FileName>AST\FunNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.FuntionCall" Collapsed="true">
+    <Position X="60.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAKgAAAAAAAAAAAAAAQAAAAAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\FuntionCall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.GreaterThanEqualNode" Collapsed="true">
+    <Position X="27" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\GreaterThanEqualNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.GreaterThanNode" Collapsed="true">
+    <Position X="31.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\GreaterThanNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.IfThenElseNode" Collapsed="true">
+    <Position X="74.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\IfThenElseNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.IfThenNode" Collapsed="true">
+    <Position X="74.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAARAAAAAABAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\IfThenNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.InstructionNode" Collapsed="true">
+    <Position X="49.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>AST\InstructionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.IntNode" Collapsed="true">
+    <Position X="51.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAgAACAAAA=</HashCode>
+      <FileName>AST\IntNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.LanguageNode" Collapsed="true">
+    <Position X="42.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\LanguageNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.LessThanEqualsNode" Collapsed="true">
+    <Position X="22.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\LessThanEqualsNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.LessThanNode" Collapsed="true">
+    <Position X="29.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\LessThanNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.LetNode" Collapsed="true">
+    <Position X="67.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhAgAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAIAACAABA=</HashCode>
+      <FileName>AST\LetNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.LogicalNode" Collapsed="true">
+    <Position X="19" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACACAAAAAAAA=</HashCode>
+      <FileName>AST\LogicalNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.MinusNode" Collapsed="true">
+    <Position X="42.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\MinusNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.MultNode" Collapsed="true">
+    <Position X="45" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\MultNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.NegativeOperationNode" Collapsed="true">
+    <Position X="36" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\NegativeOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.NilNode" Collapsed="true">
+    <Position X="56.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\NilNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.OperationNode" Collapsed="true">
+    <Position X="31.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\OperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.OrNode" Collapsed="true">
+    <Position X="18" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\OrNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.PlusNode" Collapsed="true">
+    <Position X="38.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>AST\PlusNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.ProcedureDeclarationNode" Collapsed="true">
+    <Position X="13.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAQAAAAAAAAQAAAAAAgIQAAAAAAKABAA=</HashCode>
+      <FileName>AST\ProcedureDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.RecordCreate" Collapsed="true">
+    <Position X="78.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAQAAAAAAgAAAAAAAACAAgA=</HashCode>
+      <FileName>AST\RecordCreate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.RecordDecNode" Collapsed="true">
+    <Position X="9" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAgAACAAAA=</HashCode>
+      <FileName>AST\RecordDecNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.RelationalNode" Collapsed="true">
+    <Position X="28" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAACACAAAAAAAA=</HashCode>
+      <FileName>AST\RelationalNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.StringNode" Collapsed="true">
+    <Position X="54" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAIAAAAAAAgAAAAAgAACAAAA=</HashCode>
+      <FileName>AST\StringNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.TypeDeclarationNode" Collapsed="true">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AST\TypeDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.UnaryOperationNode" Collapsed="true">
+    <Position X="36" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAgAAAAAAA=</HashCode>
+      <FileName>AST\UnaryOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.VarDeclarationNode" Collapsed="true">
+    <Position X="11.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAACAAAASAAAAAAgAAABAAAACAIAA=</HashCode>
+      <FileName>AST\VarDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.VariableNode" Collapsed="true">
+    <Position X="72" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAQAAAAAAgAAAAQAAACAAAA=</HashCode>
+      <FileName>AST\VariableNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.Scope" Collapsed="true">
+    <Position X="83.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scope\Scope.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.TypeReturn">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scope\TypeReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.ReturnInt">
+    <Position X="3.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scope\ReturnInt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.ReturnString">
+    <Position X="8" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scope\ReturnString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.ReturnRecord">
+    <Position X="12.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAIAAQAAAAIAAAEgAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Scope\ReturnRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.ReturnArray">
+    <Position X="10.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAEoAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scope\ReturnArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.ReturnAlias">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scope\ReturnAlias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.ReturnNotValue">
+    <Position X="1.25" Y="8" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Members" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scope\ReturnNotValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.Error" Collapsed="true">
+    <Position X="83.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAIAABAQA=</HashCode>
+      <FileName>Error.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.ReturnNil">
+    <Position X="14.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scope\ReturnNil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.Var_Scope" Collapsed="true">
+    <Position X="85.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAACAQAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scope\Var_Scope.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.Fun_Scope" Collapsed="true">
+    <Position X="85.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAACABAAAAAAQAAEABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scope\Fun_Scope.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.AccessNode" Collapsed="true">
+    <Position X="69.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAIAAAAAAAAAAgAAAAAgAACAAAA=</HashCode>
+      <FileName>AST\AccessNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASTTiger.ReturnBreak" Collapsed="true">
+    <Position X="1.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scope\ReturnBreak.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

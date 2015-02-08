@@ -1,0 +1,6 @@
+﻿let
+	type estudiante = {nombre:int}
+	var est := estudiante{nombre = nil}
+in
+	est := nil
+end

@@ -1,0 +1,6 @@
+﻿let 
+var x : int := 4 
+in 
+while x > 0 do 
+	x := (10 ; break ; x - 1) /* Este programa no es válido. El compilador debe reportar que la expresión que se intenta asignar a x no retorna valor. */
+end

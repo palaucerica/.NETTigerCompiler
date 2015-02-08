@@ -1,0 +1,1 @@
+(print("Left\n"); 1) | (print("Right\n"); 1)

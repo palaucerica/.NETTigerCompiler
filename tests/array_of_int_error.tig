@@ -1,0 +1,6 @@
+﻿let
+	type a = array of int
+	var b:=a[5] of nil
+in
+	b:=nil
+end

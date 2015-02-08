@@ -1,0 +1,5 @@
+﻿let 
+function print():int = 0 
+/* Este programa no es válido. Si lo fuera, aquí no se podría usar una función que permita escribir texto a la salida estándar. */ 
+in /* ... */ 
+end

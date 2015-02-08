@@ -1,0 +1,8 @@
+﻿let 
+type MyType = { X : int } 
+var a : string := "string" 
+type MyType = { X : string } 
+var b : MyType := nil 
+/* Este programa no es válido. Así se evita que el tipo MyType de la línea 2 sea ocultado por el de la 4, y que la variable b sea del tipo MyType de la línea 4, lo cual resultaría bastante confuso. */
+in /* ... */ 
+end

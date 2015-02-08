@@ -1,0 +1,26 @@
+let
+	type arr_int = array of int
+
+	function fibonacci (n : int):int = 
+	if n = 0 | n = 1 
+	then 1
+	else fibonacci(n - 1) + fibonacci(n - 2)        
+
+	var values := arr_int[10] of 0
+in
+	values[0] := 2;
+	values[1] := 4;
+	values[2] := 6;
+	values[3] := 8;
+	values[4] := 10;
+	values[5] := 12;
+	values[6] := 14;
+	values[7] := 16;
+        values[8] := 18;
+	values[9] := 20;
+	for i := 0 to 9 do (
+	    printi(values[i]);
+	    print(" : ");
+	    printi(fibonacci(values[i]));
+	    print("\n"))
+end

@@ -1,0 +1,7 @@
+﻿let 
+type string = int 
+var x : string := 4 
+/* Este programa no es válido. Si lo fuera, aquí no se podría declarar una variable cuyo tipo le permitiera aceptar como valor un literal de cadena de caracteres. */ 
+in 
+/* ... */ 
+end

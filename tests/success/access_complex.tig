@@ -1,0 +1,19 @@
+﻿let 
+type Person = { Name : string, Age : int } 
+type MedalArray = array of string 
+function Medals() : MedalArray = 
+	let 
+		var x := MedalArray[3] of nil 
+	in 
+		x[0] := "Gold" ; 
+		x[1] := "Silver" ; 
+		x[2] := "Bronze" ; 
+		x 
+	end 
+		var name : string := nil 
+		var gold : string := nil 
+in 
+	name := Person{ Name = "John Doe", Age = 23 }.Name; 
+	gold := Medals()[0]; print(name); print(" -> "); 
+	printline(gold) /* Este programa imprime: John Doe -> Gold */ 
+end

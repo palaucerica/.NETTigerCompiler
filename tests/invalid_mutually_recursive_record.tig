@@ -1,0 +1,13 @@
+/* The woman test. */
+
+let
+    type Woman = {beauty : int}
+in
+    let
+        type Men = {wife : Woman}
+        var a:= 1
+        type Woman = {husband : Men}
+        var m:=Woman{husband = Men{wife=Woman{beauty=2}}}        
+    in
+    end
+end

@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASTTiger", "ASTTiger\ASTTiger.csproj", "{1BBF7DF9-9D6F-4E14-99C6-C558D86EDB14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTiger2IL", "TestTiger2IL\TestTiger2IL.csproj", "{1451FC58-AA5A-4F40-B069-5CB23CA38263}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05A7F328-00B0-4B86-A203-4F1A4809607E}"
+	ProjectSection(SolutionItems) = preProject
+		CompilerTiger.vsmdi = CompilerTiger.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TigerExe", "TigerExe\TigerExe\TigerExe.csproj", "{653220E1-78F0-4A2D-A1A4-2F2929CCF7AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BBF7DF9-9D6F-4E14-99C6-C558D86EDB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBF7DF9-9D6F-4E14-99C6-C558D86EDB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBF7DF9-9D6F-4E14-99C6-C558D86EDB14}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1BBF7DF9-9D6F-4E14-99C6-C558D86EDB14}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1BBF7DF9-9D6F-4E14-99C6-C558D86EDB14}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1BBF7DF9-9D6F-4E14-99C6-C558D86EDB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBF7DF9-9D6F-4E14-99C6-C558D86EDB14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BBF7DF9-9D6F-4E14-99C6-C558D86EDB14}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1BBF7DF9-9D6F-4E14-99C6-C558D86EDB14}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1BBF7DF9-9D6F-4E14-99C6-C558D86EDB14}.Release|x86.ActiveCfg = Release|Any CPU
+		{1451FC58-AA5A-4F40-B069-5CB23CA38263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1451FC58-AA5A-4F40-B069-5CB23CA38263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1451FC58-AA5A-4F40-B069-5CB23CA38263}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1451FC58-AA5A-4F40-B069-5CB23CA38263}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1451FC58-AA5A-4F40-B069-5CB23CA38263}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1451FC58-AA5A-4F40-B069-5CB23CA38263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1451FC58-AA5A-4F40-B069-5CB23CA38263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1451FC58-AA5A-4F40-B069-5CB23CA38263}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1451FC58-AA5A-4F40-B069-5CB23CA38263}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1451FC58-AA5A-4F40-B069-5CB23CA38263}.Release|x86.ActiveCfg = Release|Any CPU
+		{653220E1-78F0-4A2D-A1A4-2F2929CCF7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653220E1-78F0-4A2D-A1A4-2F2929CCF7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653220E1-78F0-4A2D-A1A4-2F2929CCF7AE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{653220E1-78F0-4A2D-A1A4-2F2929CCF7AE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{653220E1-78F0-4A2D-A1A4-2F2929CCF7AE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{653220E1-78F0-4A2D-A1A4-2F2929CCF7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653220E1-78F0-4A2D-A1A4-2F2929CCF7AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{653220E1-78F0-4A2D-A1A4-2F2929CCF7AE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{653220E1-78F0-4A2D-A1A4-2F2929CCF7AE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{653220E1-78F0-4A2D-A1A4-2F2929CCF7AE}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CompilerTiger.vsmdi
+	EndGlobalSection
+EndGlobal
