@@ -25,5 +25,5 @@ To run the compiler:
 
 -Open the command prompt change the current working directory to the path ../NETTigerCompiler/TigerExe/TigerExe/bin/Debug/
  and run the "TigerExe.exe" with the full path of the file with extension ".tig" you want to compile.
--If the file has semantic or semantic errors the compiler displays them, otherwise, the compiler generate a file .exe. 
+-If the file has syntax or semantic errors the compiler displays them, otherwise, the compiler generates a file .exe.
 
